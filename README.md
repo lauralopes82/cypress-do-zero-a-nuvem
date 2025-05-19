@@ -1,28 +1,30 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+Seguros ABC
+CI
 
-👋 Seja bem-vindo(a)!
+Aplicação exemplo para demonstração de testes automatizados escritos com Cypress.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+Pré-requisitos
+Para baixar e rodar este projeto, você precisará dos seguintes sistemas instalados em seu computador:
 
-## O que você vai aprender?
+git (usei a versão 2.34.1 enquanto escrevia este documento)
+Node.js (usei a versão v18.13.0 enquanto escrevia este documento)
+npm (usei a versão 8.19.3 enquanto escrevia este documento)
+Obs: Ao instalar o Node.js, o npm é instalado automaticamente.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+Instalação
+Para instalar as dependências de desenvolvimento, execute o comando npm install (ou npm i para a versão curta).
 
-## Vamos começar?
+Executando os testes
+Neste projeto, você pode rodar os testes em modo interativo ou modo headless.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Modo headless
+Execute o comando npm test (ou npm t para a versão curta) para rodar a versão 1 de todos os testes em modo headless.
 
-___
+Ou execute o comando npm run test:v2para rodar a versão 2 de todos os testes em modo headless.
 
-Este é um curso da **Escola Talking About Testing**.
+Modo interativo
+Execute o comando npm run cy:open para abrir a Cypress App e rodar: a versão 1 dos testes (onde a profissão padrão é "arquiteta"); ou a versão 2 dos testes, a qual testa todas as profissões de uma só vez.
+
+Ou execute o comando npm run cy:open:[profissao] (ex.: npm run cy:open:dentista) para abrir a Cypress App e rodar os testes em modo interativo para uma profissão específica.
+
+Feito com ❤️ por Walmyr.
